@@ -79,7 +79,7 @@
 <part>id</part>
 </key>
 </table>
-<table x="717" y="149" name="decks">
+<table x="718" y="149" name="decks">
 <row name="id" null="1" autoincrement="1">
 <datatype>int</datatype>
 <default>NULL</default></row>
@@ -99,6 +99,9 @@
 <default>NULL</default></row>
 <row name="discard" null="1" autoincrement="0">
 <datatype>bit</datatype>
+<default>NULL</default></row>
+<row name="HP" null="1" autoincrement="0">
+<datatype>int</datatype>
 <default>NULL</default></row>
 <key type="PRIMARY" name="">
 <part>id</part>
